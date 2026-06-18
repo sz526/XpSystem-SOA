@@ -1,0 +1,12 @@
+C:\Users\shzha5124\Documents\CodeHode\csharp\Assignments\Modul3\XpSystem\XpSystem\bin\Debug\net10.0\XpSystem.deps.json
+C:\Users\shzha5124\Documents\CodeHode\csharp\Assignments\Modul3\XpSystem\XpSystem\bin\Debug\net10.0\XpSystem.dll
+C:\Users\shzha5124\Documents\CodeHode\csharp\Assignments\Modul3\XpSystem\XpSystem\bin\Debug\net10.0\XpSystem.pdb
+C:\Users\shzha5124\Documents\CodeHode\csharp\Assignments\Modul3\XpSystem\XpSystem\obj\Debug\net10.0\XpSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shzha5124\Documents\CodeHode\csharp\Assignments\Modul3\XpSystem\XpSystem\obj\Debug\net10.0\XpSystem.AssemblyInfoInputs.cache
+C:\Users\shzha5124\Documents\CodeHode\csharp\Assignments\Modul3\XpSystem\XpSystem\obj\Debug\net10.0\XpSystem.AssemblyInfo.cs
+C:\Users\shzha5124\Documents\CodeHode\csharp\Assignments\Modul3\XpSystem\XpSystem\obj\Debug\net10.0\XpSystem.csproj.CoreCompileInputs.cache
+C:\Users\shzha5124\Documents\CodeHode\csharp\Assignments\Modul3\XpSystem\XpSystem\obj\Debug\net10.0\XpSystem.sourcelink.json
+C:\Users\shzha5124\Documents\CodeHode\csharp\Assignments\Modul3\XpSystem\XpSystem\obj\Debug\net10.0\XpSystem.dll
+C:\Users\shzha5124\Documents\CodeHode\csharp\Assignments\Modul3\XpSystem\XpSystem\obj\Debug\net10.0\refint\XpSystem.dll
+C:\Users\shzha5124\Documents\CodeHode\csharp\Assignments\Modul3\XpSystem\XpSystem\obj\Debug\net10.0\XpSystem.pdb
+C:\Users\shzha5124\Documents\CodeHode\csharp\Assignments\Modul3\XpSystem\XpSystem\obj\Debug\net10.0\ref\XpSystem.dll

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="XpSystem.Tests/XpSystem.Tests.csproj" />
+  <Project Path="XpSystem/XpSystem.csproj" />
+</Solution>
