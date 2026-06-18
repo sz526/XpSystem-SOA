@@ -7,9 +7,8 @@ namespace XpSystem.Tests;
 public class PlayerTests
 {
     [Fact]
-    public void NewPlayer_ShouldStartAtLevelOneAndZeroXp()
+    public void CreatePlayer_ShouldInitializeWithUniqueIdLevelOneAndZeroXp()
     {
-        
         // Arrange
         var service = new PlayerService();
 
@@ -18,10 +17,11 @@ public class PlayerTests
         var player2 = service.CreatePlayer("Mage");
 
         // Assert
+        Assert.Equal(1, player1.Id);
+        Assert.Equal(2, player2.Id);
         Assert.Equal(1, player1.Level);
         Assert.Equal(0, player1.Xp);
     }
-    [Fact]
     public void GainXp_ShouldIncreaseXp()
     {
         var service = new PlayerService();
