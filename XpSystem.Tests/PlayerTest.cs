@@ -38,4 +38,17 @@ public class PlayerTests
         Assert.Equal(2, player.Level);
         Assert.Equal(0, player.Xp);
     }   
+    [Fact]
+    public void GetAllPlayers_ShouldReturnAllStoredPlayers()
+    {
+        // Arrange
+        var service = new PlayerService();
+        service.CreatePlayer("Hero");
+        service.CreatePlayer("Mage");
+
+        // Act
+        var allPlayers = service.GetAllPlayers();
+
+        // Assert
+        Assert.Equal(2, allPlayers.Count);
 }
