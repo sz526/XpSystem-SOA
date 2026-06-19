@@ -51,4 +51,5 @@ public class PlayerTests
 
         // Assert
         Assert.Equal(2, allPlayers.Count);
+    }
 }

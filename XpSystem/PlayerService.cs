@@ -34,4 +34,9 @@ public class PlayerService
             player.Xp -= 100;
         }
     }
+
+    public List<PlayerModel> GetAllPlayers()
+    {
+        return _players.ToList(); // Returns a copy of the list for safety
+    }
 }
