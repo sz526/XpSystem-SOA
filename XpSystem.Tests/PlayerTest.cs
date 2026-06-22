@@ -52,4 +52,21 @@ public class PlayerTests
         // Assert
         Assert.Equal(2, allPlayers.Count);
     }
+    [Fact]
+    public void GainXp_NegativeAmount_ShouldThrowArgumentOutOfRangeException()
+    {
+    // Arrange
+    var service = new PlayerService();
+    var player = service.CreatePlayer("Hero");
+
+    // Act & Assert
+    // Assert.Throws 
+    var exception = Assert.Throws<ArgumentOutOfRangeException>(() => 
+    {
+        service.GainXp(player.Id, -50); // Intentionally passing in negative numbers
+    });
+
+    // Also check if the error message contains the parameter name "amount"
+    Assert.Contains("amount", exception.Message);
+    }
 }
