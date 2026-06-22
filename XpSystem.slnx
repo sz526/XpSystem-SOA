@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="XpSystem.Api/XpSystem.Api.csproj" />
   <Project Path="XpSystem.Tests/XpSystem.Tests.csproj" />
   <Project Path="XpSystem/XpSystem.csproj" />
 </Solution>
