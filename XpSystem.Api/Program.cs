@@ -21,3 +21,5 @@ if (app.Environment.IsDevelopment())
 
 app.MapControllers(); // PlayersController
 app.Run();
+
+public partial class Program { }
