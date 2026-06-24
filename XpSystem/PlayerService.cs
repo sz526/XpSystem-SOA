@@ -49,4 +49,19 @@ public class PlayerService
     {
         return _players.ToList(); // Returns a copy of the list for safety
     }
+
+    public void DeletePlayer(int id)
+    {
+        // 1. find the player
+        var player = _players.FirstOrDefault(p => p.Id == id);
+        
+        // 2. if can not find it, throw KeyNotFoundException
+        if (player == null)
+        {
+            throw new KeyNotFoundException($"Player with ID {id} does not exist.");
+        }
+        
+        // 3. delte it
+        _players.Remove(player);
+    }   
 }

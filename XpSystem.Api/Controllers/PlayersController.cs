@@ -48,6 +48,20 @@ public class PlayersController : ControllerBase
             return NotFound(new { error = ex.Message });
         }
     }
+        [HttpDelete("{id}")]
+    public IActionResult DeletePlayer(int id)
+    {
+        try
+        {
+            _playerService.DeletePlayer(id);           
+            
+            return NoContent(); 
+        }
+        catch (KeyNotFoundException)
+        {
+            return NotFound(new { error = $"Player with ID {id} was not found." });
+        }
+    }
 }
 
 public record XpRequest(int Amount);
